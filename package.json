@@ -1,0 +1,23 @@
+{
+  "name": "backend_rdc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rdc",
+    "Ramadhin",
+    "College",
+    "RD",
+    "College",
+    "Sheikhpura"
+  ],
+  "author": "Ckumar",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  }
+}
