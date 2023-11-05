@@ -13,3 +13,5 @@ I am a passionate for web development with a strong command of development techn
 [Contact - techwithchhotu22@gmail.com]
 
 # Basic Setup of Routes & Controllers of student level & also admission
+
+# Models Setup (UserModels, AdmissionModels)

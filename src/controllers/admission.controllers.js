@@ -1,6 +1,6 @@
+import Admission from "../models/admission.models.js";
 /*1======================admission======================*/
 const admission = async (req, res, next) => {
-  res.send("admission");
   //1: take data from the frontend part
   //2: data validation
   //3: check if the user/student did not enrolled any other course at same time period (aadharNo,email)
