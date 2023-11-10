@@ -4,8 +4,7 @@ const admissionSchema = new Schema(
   {
     course: {
       type: String,
-      required: [true, "Course name is required"],
-      uppercase: true,
+      required: [true, "Course is required"],
     },
     session: {
       type: String,
@@ -21,21 +20,21 @@ const admissionSchema = new Schema(
     },
     email: {
       type: String,
-      required: [true, "Email is required"],
       unique: [true, "This email is already with another student"],
+      required: [true, "Email is required"],
     },
     phone: {
       type: Number,
-      required: [true, "Phone number is required"],
+      required: [true, "Phone is required"],
     },
     aadhar: {
       type: Number,
-      required: [true, "Aadhar number is required"],
       unique: [true, "Please enter correct aadhar number"],
+      required: [true, "Aadhar is required"],
     },
     state: {
       type: String,
-      required: [true, "State name is required"],
+      required: [true, "State is required"],
     },
     gender: {
       type: String,
@@ -44,26 +43,26 @@ const admissionSchema = new Schema(
     },
     dob: {
       type: String,
-      required: [true, "Date of birth is required"],
+      required: [true, "DOB is required"],
     },
     religion: {
       type: String,
     },
     pinCode: {
       type: Number,
-      required: [true, "Pin code is required"],
+      required: [true, "Pin Code is required"],
     },
 
     parentName: {
       type: String,
-      required: [true, "Parent Name is required"],
+      required: [true, "parent name is required"],
     },
     parentEmail: {
       type: String,
     },
     parentAadhar: {
       type: Number,
-      required: [true, "Parent aadhar number is required"],
+      required: [true, "parent aadhar is required"],
     },
     avatar: {
       public_id: {
@@ -75,15 +74,15 @@ const admissionSchema = new Schema(
     },
     aadharDoc: {
       type: Buffer,
-      required: [true, "please upload your aadhar"],
+      required: [true, "Please upload your aadhar card"],
     }, //Store the PDF as a binary buffer
     secondaryCertificate: {
       type: Buffer,
-      required: [true, "please upload your secondary certificate"],
+      required: [true, "Please Upload your secondary certificate"],
     },
     secondaryMarksheet: {
       type: Buffer,
-      required: [true, "please upload your secondary marksheet"],
+      required: [true, "Please Upload your secondary marksheet"],
     },
     seniorSecondaryCertificate: {
       type: Buffer,

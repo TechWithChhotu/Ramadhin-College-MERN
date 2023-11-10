@@ -15,3 +15,9 @@ I am a passionate for web development with a strong command of development techn
 # Basic Setup of Routes & Controllers of student level & also admission
 
 # Models Setup (UserModels, AdmissionModels)
+
+# Admission Controller, multer setup for multiple types of file
+
+# Setup mail system
+
+# Upload image on Cloudinary
